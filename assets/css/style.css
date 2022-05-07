@@ -510,9 +510,15 @@ section {
   font-size: 14px;
 }
 .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/devv.jpeg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+}
+
+.kota{
+  max-width: 90%;
+  box-shadow: -15px 10px 5px rgb(85, 81, 81);
+  height: auto;
 }
 @media (min-width: 1200px) {
   .about .video-box {
