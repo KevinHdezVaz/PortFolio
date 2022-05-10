@@ -5,6 +5,22 @@ body {
   
 }
 
+p{
+  text-decoration: none;
+  font-size: 20px;
+
+ }
+
+ @media (max-width: 991px)
+ {
+  p{
+    text-decoration: none;
+    font-size: 15px;
+  
+   }
+  
+ }
+
 a {
   text-decoration: none;
   color: #49b5e7;
@@ -85,6 +101,8 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(21, 37, 65);
   mix-blend-mode: overlay;
 }
+
+ 
 .text
 {
   position: relative;
@@ -516,9 +534,17 @@ section {
 }
 
 .kota{
-  max-width: 90%;
-  box-shadow: -15px 10px 5px rgb(85, 81, 81);
-  height: auto;
+  max-width: 80%;
+  margin-top: 80px;
+  max-height: 80%;
+   height: auto;
+ 
+    border-radius:250px;
+ 
+  justify-content: center;
+  align-items: center;
+   
+ 
 }
 @media (min-width: 1200px) {
   .about .video-box {
@@ -837,7 +863,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #0f394c;
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
